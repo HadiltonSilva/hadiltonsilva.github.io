@@ -1,124 +1,1052 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <!--Google fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-       <!--Fim google fonts-->
-       <!--BOOTSTRAP ICONS-->
-       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-       <!--FIM BOOTSTRAP ICONS-->
-       <link rel="stylesheet" href="style.css">
-       <title>Hadilton Silva</title>
-    </head>
-    <body>
-       <header>
-            <div class="interface">
-                <div class="logo">
-                    <a href="#">
-                        <img src="images/HSS.PNG" alt="Logo HS">
-                    </a>
-                </div><!--logo-->
+	
+	<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+	<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+	<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 
-                <nav class="menu-desktop">
-                    <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Especialidades</a></li>
-                        <li><a href="#">Biografia</a></li>
-                        <li><a href="#">Projetos</a></li>
-                    </ul>
-                </nav>
-                <div class="btn-contato">
-                    <a href="#">
-                        <button>Contato</button>
-                    </a>
-                </div>
-            </div><!--interface-->
-       </header>
+<head>
 
-       <main>
-            <section class="topo-do-site">
-                <div class="interface">
-                    <div class="flex">
-                        <div class="txt-topo-site">
-                            <h1>Hadilton <span>Silva</span></h1>
-                            <p>Transformando dados em decisões estratégicas.</p>
-                            <div class="btn-contato">
-                                <a href="#">
-                                    <button>Entre em Contato</button>
-                                </a>
-                            </div>
-                        </div><!--text-topo-do-site-->
+	<!-- Google Tag Manager -->
+	<script>
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PNSXVNR');
+	</script>
+	<!-- End Google Tag Manager -->
 
-                        <div class="img-topo-site">
-                            <img src="images/hadilton.png" alt="">
-                        </div><!--img-topo-site-->
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Hadilton Selis</title>
+	<meta name="description" content="This is my portfolio.">  
+	<meta name="author" content="Hadilton Selis">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-                    </div>
-                </div><!--interface-->
-            </section><!--topo-do-site-->
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-            <section class="especialidades">
-                <div class="interface">
-                    <h2 class="titulo">HABILIDADES <span>PRINCIPAIS</span></h2>
-                    <div class="flex">
-                        <div class="especialidades-box">
-                            <i class="bi bi-code-square"></i>
-                            <h3>Habilidades Técnicas</h3>
-                            <ul>
-                                <li>Excel: Proficiência em fórmulas, tabelas dinâmicas, gráficos e análise de dados.</li>
-                                <li>Power BI: Criação de dashboards interativos, relatórios detalhados e visualizações de dados para apoiar a tomada de decisões.</li>
-                                <li>Python: Competência em Python para análise de dados, incluindo bibliotecas como Pandas, NumPy e Matplotlib.</li>
-                            </ul>
-                        </div><!--especialidades-box-->
-                        
-                        <div class="especialidades-box">
-                            <i class="bi bi-briefcase"></i>
-                            <h3>Habilidades em Negócios</h3>
-                            <ul>
-                                <li>Análise de Negócios: Habilidade em traduzir dados em insights acionáveis que suportem as estratégias de negócios.</li>
-                                <li>Tomada de Decisões Baseada em Dados: Experiência em utilizar dados para influenciar decisões estratégicas e operacionais.</li>
-                            </ul>
-                        </div><!--especialidades-box-->
-                        
-                        <div class="especialidades-box">
-                            <i class="bi bi-graph-up-arrow"></i>
-                            <h3>Análise de Dados</h3>
-                            <ul>
-                                <li>Análise Descritiva: Resumir e interpretar dados para entender o passado e identificar padrões.</li>
-                                <li>Análise Diagnóstica: Identificar causas e efeitos por trás dos padrões observados.</li>
-                                <li>Análise Preditiva: Utilizar dados históricos para prever tendências e resultados futuros.</li>
-                                <li>Análise Prescritiva: Recomendar ações com base nas previsões para otimizar os resultados.</li>
-                            </ul>
-                        </div><!--especialidades-box-->
-                    </div><!--flex-->
-                </div><!--interface-->
-            </section><!--especialidades-->
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+   <link rel="stylesheet" href="css/slidebar.css"> 
 
-            <section class="sobre">
-                <div class="interface">
-                    <div class="flex">
-                        <div class="img-sobre">
-                            <img src="images/1.png" alt="">
-                        </div><!--img-sobre-->
-                        <div class="txt-sobre">
-                            <h2>MUITO PRAZER, <span>SOU HADILTON SILVA</span></h2>
-                            <p>Formado em Tecnologia em Redes de Computadores pela Unyleya, com pós-graduação em Business Intelligence e MBA Executivo em Gestão Bancária CPA-20, tenho construído uma trajetória profissional diversa e robusta. Minha experiência abrange desde a função de vendedor e responsável pelo setor de peças em uma concessionária Toyota, até cargos administrativos em empresas de segurança e construção, como a Prosegur Brasil Ltda. e a EBS Serviços Ltda.</p>
-                            <p>Na Prosegur Brasil Ltda., atuei como Assistente de Operações Cash II, aprimorando minhas habilidades em processos operacionais e gestão de equipes. Posteriormente, na EBS Serviços Ltda., desempenhei o papel de Assistente Administrativo, sendo responsável por realizar apontamentos, gerenciar e supervisionar equipes para execução de projetos de infraestrutura, terraplanagem e pavimentação.</p>
-                            <p>Sempre buscando me atualizar e aprimorar meus conhecimentos, realizei diversos cursos na área de Tecnologia da Informação, incluindo programação, desenvolvimento web, Excel, Business Intelligence e, atualmente, estou focado em análise de dados. Essa contínua busca por aprendizado reflete minha paixão pela tecnologia e minha dedicação em fornecer soluções inovadoras e eficientes.</p>
-                            <p>Com uma sólida base educacional, vasta experiência prática e um contínuo desenvolvimento profissional, estou preparado para contribuir de maneira significativa como Analista de Dados, trazendo insights valiosos e estratégias baseadas em dados para otimizar processos e tomar decisões informadas.</p>
-                            <div class="btn-social">
-                                <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                                <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
-                                <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
-                            </div><!--btn-social-->
-                        </div><!--txt-sobre-->
-                    </div><!--flex-->
-                </div><!--interface-->
-            </section><!--sobre-->
-       </main>
-    </body>
+   <!-- script
+   ================================================== -->   
+	
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+	<script src="js/slidebar.js"></script>
+
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+	<link rel="stylesheet" href="css/font-awesome-6/css/all.css" type="text/css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+	
+</head>
+
+   <!-- favicons
+	================================================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="icon" type="image/png" href="images/Hs.png">
+
+</head>
+
+<body id="top">
+
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNSXVNR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<!-- header 
+   ================================================== -->
+   <header>   	
+
+	   
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		          <a href="index.html">Menu</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Início</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">Sobre</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resumo</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfólio</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Serviços</a></li>			
+						<li><a class="smoothscroll"  href="#contact" title="">Contato</a></li>				
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Olá, seja bem vindo!</h5>
+	   			<h1>Eu sou <br> Hadilton Selis </h1>
+
+	   			<p class="intro-position">
+	   				<span>Analista de Dados</span>
+	   				<span>Analista de Investimentos</span>
+	   
+	   				<span>Analista Administrativo</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">Sobre mim</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="mailto:hadiltonsilva@gmail.com"><i class="fas fa-envelope"></i></a></li>
+         <li><a href="https://github.com/HadiltonSilva"><i class="fab fa-github"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/hadiltonsilva/"><i class="fab fa-linkedin"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Sobre</h5>
+   			<h1>Quem sou</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/perfil.png" alt="Profile Picture">
+
+   				<p class="lead" align="justify">
+
+					Formado em Tecnologia em Redes de Computadores pela Unyleya, com pós-graduação em Business Intelligence e MBA Executivo em Gestão Bancária CPA-20, tenho construído uma trajetória profissional diversa e robusta. Sou um aspirante a Analista de Dados com uma paixão por tecnologia e pela exploração da capacidade de processamento das máquinas na extração de informações úteis de grandes volumes de dados. <br><br>
+
+					Embora eu ainda não tenha experiência profissional na área, estou constantemente buscando me atualizar e aprimorar meus conhecimentos, realizei diversos cursos na área de Tecnologia da Informação, incluindo programação, desenvolvimento web, Excel, Business Intelligence e, atualmente, estou focado em análise de dados. Essa contínua busca por aprendizado reflete minha paixão pela tecnologia e minha dedicação em fornecer soluções inovadoras e eficientes. <br><br>
+
+					Com uma sólida base educacional, vasta experiência prática e um contínuo desenvolvimento profissional, estou preparado para contribuir de maneira significativa como Analista de Dados, trazendo insights valiosos e estratégias baseadas em dados para otimizar processos e tomar decisões informadas. Ah! E não basta apenas produzir boas análises ou construir bons modelos preditivos se não criarmos bons gráficos e é por isso que tenho um cuidado especial nas etapas de visualização de dados e design de dashboards para garantir que cada estudo feito possa elucidar as respostas que os dados podem nos fornecer para cada desafio. <br><br>
+
+   				</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3> Perfil </h3>
+   			<p>
+   				Acredito que a capacidade de produzir soluções eficazes e eficientes dependem fundamentalmente dos conhecimentos previamente adquiridos.
+   			</p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Nome:</strong>
+   					<span>Hadilton da Silva Selis</span>
+   				</li>
+   				<li>
+   					<strong>Data de nascimento:</strong>
+   					<span>20 de Dezembro, 1993</span>
+   				</li>
+   				<li>
+   					<strong>Profissão:</strong>
+   					<span>Analista Administrativo, Analista de dados e Analista de Investimentos</span>
+   				</li>
+				
+
+   			</ul> <!-- /info-list -->
+
+			<!-- owl-slider-languages -->
+			<div id="owl-slider-languages" class="owl-carousel skill-list" style="top:-57px">
+
+	  			<!-- Language 1 -->
+			  	<div>
+					<ul class="skill-bars">
+					   <li>
+					   	<div class="progress percent95"><span>Nativo</span></div>
+					   	<strong>Português</strong>
+					   </li>
+				  	</ul>
+			  	</div>
+			  	<!-- \Language 1 -->
+
+				<!-- Language 2 -->
+			  	<div>
+					<ul class="skill-bars">
+	 				   <li>
+					   	<div class="progress percent60"><span>Intermediário</span></div>
+					   	<strong>Inglês</strong>
+					   </li>
+				  	</ul>
+			  	</div>
+				<!-- \Language 2 -->
+
+				<!-- Language 3 -->
+			  	<div>
+					<ul class="skill-bars">
+	 				   <li>
+					   	<div class="progress percent40"><span>Regular</span></div>
+					   	<strong>Espanhol</strong>
+					   </li>
+				  	</ul>
+			  	</div>
+				<!-- \Language 3 -->
+
+			</div> 
+			<!-- \owl-slider-languages -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+			
+   			<h3> Skills </h3>
+   			<p>
+   				Estes são meus níveis de habilidade com as tecnologias mais populares no mercado atualmente:
+   			</p>
+				
+			<div id="owl-slider-skills" class="owl-carousel skill-list">
+
+	  			<!-- Page 2 -->
+			  	<div>
+				
+					<ul class="skill-bars">
+					   <li>
+					   	<div class="progress percent75"><span>Muito Bom</span></div>
+					   	<strong>Python</strong>
+					   </li>
+					   <li>
+					   	<div class="progress percent85"><span>Avançado</span></div>
+					   	<strong>Microsoft Power BI</strong>
+					   </li>
+	   				   <li>
+					   	<div class="progress percent85"><span>Avançado</span></div>
+					   	<strong>microsoft Excel</strong>
+					   </li>
+	   				   <li>
+					   	<div class="progress percent75"><span>Muito bom</span></div>
+					   	<strong>JavaScript</strong>
+					   </li>
+	   				   <li>
+					   	<div class="progress percent70"><span>Bom</span></div>
+					   	<strong>React Native</strong>
+					   </li>
+				  	</ul>
+			  	</div>
+			  	<!-- \Page 2 -->
+
+	  			<!-- Page 1 -->
+			  	<div>
+				
+					<ul class="skill-bars">
+					   <li>
+					   	<div class="progress percent40"><span>Regular</span></div>
+					   	<strong>SQL</strong>
+					   </li>
+					   <li>
+					   	<div class="progress percent80"><span>Muito bom</span></div>
+					   	<strong>HTML5</strong>
+					   </li>
+	   				   <li>
+					   	<div class="progress percent75"><span>Muito bom</span></div>
+					   	<strong>CSS</strong>
+					   </li>
+	   				   <li>
+					   	<div class="progress percent50"><span>Intermediário</span></div>
+					   	<strong>Linux</strong>
+					   </li>
+	   				   <li>
+					   	<div class="progress percent70"><span>Bom</span></div>
+					   	<strong>Google Analytics</strong>
+					   </li>
+				  	</ul>
+			  	</div>
+			  	<!-- \Page 1 -->
+
+
+			</div> <!-- \owl-slider-skills -->
+
+   		</div> <!-- \col-six tab-full -->
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Fale comigo</a>
+   			<a href="pdf/cv/Hadilton Curriculo.pdf" title="Download CV" class="button button-primary">Baixe meu CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resumo</h5>
+   			<h1>Minhas credenciais</h1>
+
+   			<p class="lead">
+				Estes são os cursos e certificações para ganho de conhecimento e experiência durante minha jornada até hoje...
+   			</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<!-- <div class="row resume-timeline"> -->
+
+  
+	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Cursos</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+		   		<div id="owl-slider-cert" class="owl-carousel certificate-list">
+
+
+					
+					<!-- Certificate 5 -->
+		   			<div class="timeline-block">
+						
+		   				<div class="timeline-ico">
+							<i class="bi bi-phone"></i>
+		   				</div>
+
+		   				<div class="timeline-header">
+		   					<h3>
+		   						<a href="pdf/others/5_Detecção_de_Faces_OpenCV.pdf">Certificado</a>
+		   					</h3>
+		   					<p>Atualmente</p>
+		   				</div>
+
+		   				<div class="timeline-content">
+		   					<h4>Desenvolvimento Mobile</h4>
+		   					<p>
+		   						Decidir ampliar minhas habilidades técnicas e ficar por dentro do crescente <br> mercado de desenvolvimento de aplicativos mobile. Meu objetivo foi adquirir conhecimento prático e teórico para criar soluções
+								inovadoras e atender às demandas do mercado atual. Neste curso aprendo desenvolver aplicativos do zero até aplicativos completos com Integração com API's, Banco de dados, Autenticação, Mapas, Animações, Design.
+								Acredito que o desenvolvimento mobile é uma área estratégica para meu crescimento profissional e me permitirá contribuir de forma significativa em projetos tecnológicos.
+		   					</p>
+		   				</div>
+
+		   			</div> <!-- /timeline-block -->
+					<!-- /Certificate 5 -->
+
+					<!-- Certificate 4 -->
+		   			<div class="timeline-block">
+
+		   				<div class="timeline-ico">
+							<i class="bi bi-bank2"></i>
+		   				</div>
+
+		   				<div class="timeline-header">
+		   					<h3>
+		   						<a href="pdf/others/4_Desenvolvedor_Web.pdf">Certificado</a>
+		   					</h3>
+		   					<p>Janeiro, 2024</p>
+		   				</div>
+
+		   				<div class="timeline-content">
+		   					<h4>CPA 20</h4>
+		   					<p>
+								Ajudou a aprimorar meu conhecimento técnico em investimentos e análise e garantir que eu esteja atualizado com as melhores práticas, e melhorar minha competitividade ao diferenciar de outros profissionais.
+		   					</p>
+		   				</div>
+
+		   			</div> <!-- /timeline-block -->
+					<!-- /Certificate 4 -->
+
+					<!-- Certificate 3 -->
+					<div class="timeline-block">
+
+		   				<div class="timeline-ico">
+							<i class="fa fa-database"></i>
+		   				</div>
+
+		   				<div class="timeline-header">
+		   					<h3>
+		   						<a href="pdf/others/3_PagSeguro.pdf">Certificado</a>
+		   					</h3>
+		   					<p>Janeiro, 2018</p>
+		   				</div>
+
+		   				<div class="timeline-content">
+		   					<h4>SQL para Análise de Dados</h4>
+		   					<p>
+								Um curso prático e abrangente que ensina a usar SQL para consultar e analisar dados de banco de dados. Foram mais de 70 exercícios e dois projetos completos, abordando desde a instalação do software até a criação de dashboards e a aplicação da SQL na análise de dados de negócios.
+		   					</p>
+		   				</div>
+
+		   			</div> <!-- /timeline-block -->
+					<!-- /Certificate 3 -->
+
+					<!-- Certificate 2 -->
+		   			<div class="timeline-block">
+
+		   				<div class="timeline-ico">
+							<i class="fas fa-laptop-code"></i>
+		   				</div>
+
+		   				<div class="timeline-header">
+		   					<h3>
+		   						<a href="pdf/others/2_MySQL.pdf">Certificado</a>
+		   					</h3>
+		   					<p>Janeiro, 2018</p>
+		   				</div>
+
+		   				<div class="timeline-content">
+		   					<h4>Python 3</h4>
+		   					<p>
+								Participei de um curso completo de Python 3, abrangendo mais de 140 horas de conteúdo distribuídas em 745 aulas. O curso cobre tópicos desde lógica de programação, programação procedural e funcional até programação orientada a objetos e padrões de projeto. Além disso, inclui módulos específicos como PySide6 para interfaces gráficas, Selenium, Django, SQLite3, MySQL e MariaDB.
+								Desenvolvi projetos reais, como gerador e validador de CPF, sites com Django e configuração de servidor Linux no Google Cloud Platform. Também aprendi a realizar testes automatizados com TDD básico, utilizar expressões regulares, HTML5, CSS3 e comandos Unix.
+		   					</p>
+		   				</div>
+
+		   			</div> <!-- /timeline-block -->
+					<!-- /Certificate 2 -->
+
+					<!-- Certificate 1 -->
+		   			<div class="timeline-block">
+
+		   				<div class="timeline-ico">
+							<i class="bi bi-clipboard2-data"></i>
+		   				</div>
+
+		   				<div class="timeline-header">
+		   					<h3>
+		   						<a href="pdf/others/1_PHP_7.pdf">Certificado</a>
+		   					</h3>
+		   					<p>Janeiro, 2018</p>
+		   				</div>
+
+		   				<div class="timeline-content">
+		   					<h4>PowerBI + SQLServer</h4>
+		   					<p>
+								Aprendi uma abordagem inovadora e prática, começando do absoluto zero e focado no desenvolvimento de Dashboards e na manipulação de dados usando SQL Server. Esse curso abrangeu todos os aspectos essenciais, incluindo a construção de Dashboards, o tratamento de dados através do SQL Server, e a compreensão teórica de conceitos chave como Modelagem de Dados, Insights, DAX, M e consultas de banco de dados.
+		   					</p>
+		   				</div>
+
+		   			</div> <!-- /timeline-block -->
+					<!-- /Certificate 1 -->
+
+				</div> 	<!-- \owl-slider-cert -->
+
+   			</div> <!-- /timeline-wrap -->  
+
+   		</div> <!-- /col-twelve -->
+
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Formações Acadêmicas</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+		   		<div id="owl-slider-academy" class="owl-carousel certificate-list">
+
+					<!-- Academy 3 -->
+		   			<div class="timeline-block">
+
+		   				<div class="timeline-ico">
+		   					<i class="fa fa-cogs"></i>
+		   				</div>
+
+		   				<div class="timeline-header">
+		   					<h3>
+		   						Curso de Superior
+		   					</h3>
+		   					<p>Agosto, 2022</p>
+		   				</div>
+
+		   				<div class="timeline-content">
+		   					<h4>Tecnologia em Redes de Computadores</h4>
+		   					<p>
+								Sou formado em Tecnologia em Redes de Computadores, com habilidades em configuração de servidores, segurança da informação e administração de sistemas. Possuo um bom conhecimento técnico que pode ser aplicado à análise de dados.
+		   					</p>
+		   				</div>
+
+		   			</div> <!-- /timeline-block -->
+					<!-- /Academy 3 -->
+
+					<!-- Academy 2 -->
+		   			<div class="timeline-block">
+
+		   				<div class="timeline-ico">
+		   					<i class="fas fa-robot"></i>
+		   				</div>
+
+		   				<div class="timeline-header">
+		   					<h3>
+		   						Pós-Graduação
+		   					</h3>
+		   					<p>Março, 2023 - Agosto, 2024</p>
+		   				</div>
+
+		   				<div class="timeline-content">
+		   					<h4>MBA Executivo em Gestão Bancária CPA-20</h4>
+		   					<p>
+								Formação avançada em gestão bancária com certificação CPA-20, abrangendo temas como estratégia financeira, análise de investimentos, gestão de riscos e conformidade regulatória. A ênfase foi em desenvolver habilidades estratégicas e analíticas voltadas para a liderança no setor bancário.
+		   					</p>
+		   				</div>
+
+		   			</div> <!-- /timeline-block -->
+					<!-- /Academy 2 -->
+
+					<!-- Academy 1 -->
+		   			<div class="timeline-block">
+
+		   				<div class="timeline-ico">
+		   					<i class="fa fa-graduation-cap"></i>
+		   				</div>
+
+		   				<div class="timeline-header">
+		   					<h3>
+		   						Pós-Graduação
+		   					</h3>
+		   					<p>Março, 2023 - Setembro, 2024</p>
+		   				</div>
+
+		   				<div class="timeline-content">
+		   					<h4>Business Intelligence</h4>
+		   					<p>
+								Desenvolvimento de habilidades avançadas na análise de dados e na tomada de decisões estratégicas. Me especializei em coleta, processamento e interpretação de grandes volumes de dados para transformar informações complexas em insights acionáveis. Proficiente em ferramentas e técnicas de BI, como excel, Power BI, com uma forte capacidade de criar visualizações impactantes e relatórios detalhados para suportar as necessidades empresariais.
+		   					</p>
+		   				</div>
+
+		   			</div> <!-- /timeline-block -->
+					<!-- /Academy 1 -->
+
+   				</div> 	<!-- \owl-slider-academy -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+
+
+
+   				</div> 	<!-- \owl-slider-extra -->
+
+
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+
+	</section> <!-- /features -->
+
+	<!-- Portfolio Section ================================================== -->
+
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfólio</h5>
+   			<h1>Confira alguns dos meus projetos</h1>
+
+   			<p class="lead">
+   				Agora que já sabe um pouco sobre mim, gostaria de apresentar alguns dos projetos nos quais trabalhei. Por favor, sinta-se livre para analisá-los e caso tenha alguma dúvida, sugestão ou apenas queira trocar uma ideia sobre algum deles, não hesite em entrar em contato comigo! 
+   			</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+	   		<div id="owl-slider-port" class="owl-carousel portfolio-list">
+
+	   			
+
+	   			<!-- Project 4 -->
+		        <div id="folio-wrapper" class="block-1-1 block-mob-full stack">
+
+	        		<div class="bgrid folio-item">
+						<div class="item-wrap">
+		               	
+		               		<h5>Data Science Project</h5> <br>
+
+			               	<img src="images/portfolio/twitter_1.png" alt="Twitter I">
+			               	<a href="#modal-04" class="overlay">              		                  
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Big Data Analytics on Twitter - Part I</h3>	     					    
+								    	<span class="folio-types">
+							       	 		Big Data Analytics
+								      	</span>		     		
+								   	</div> 	                      	
+								</div>                    
+		                  	</a>
+		            	</div>
+	        		</div> <!-- /folio-item -->
+
+		            <!-- modal popups - begin ============================================================= -->
+		            
+		            <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+						<div class="media">
+							<img src="images/portfolio/modals/m-twitter_1.png" alt="" />
+						</div>      	
+
+						<div class="description-box">
+					  		<h4>Big Data Analytics on Twitter - Part I</h4>		      
+						  	<p>
+								O objetivo desta análise é explorar diferentes técnicas e ferramentas para a captura, manipulação e transformação de dados proveninentes da rede social Twitter. A análise a ser feita buscará entender os sentimentos que cada Tweet transmite para permitir a extração de informação, conhecimento e sabedoria. Esta técnica visa auxilar os tomadores de decisão na análise dos sentimentos do seu público alvo em relação a um determinado tema. Como por exemplo, determinar se uma campanha de marketing apresenta uma aceitação positiva, negativa ou neutra. 
+						  	</p>
+
+							<div class="categories">Big Data Analytics</div>			               
+						</div>
+
+						<div class="link-box">
+							<a href="https://franklin390.github.io/Mini_Project_01_Sentiment_Analisys_I/">Ver Projeto</a>
+							<a href="#" class="popup-modal-dismiss">Fechar</a>
+						</div>		      
+
+					</div> <!-- /modal -->
+
+					<!-- modal popups - end ============================================================ -->
+
+		        </div> <!-- /portfolio-wrapper --> 
+				<!-- \Project 4 -->
+
+	   			<!-- Project 3 -->
+		        <div id="folio-wrapper" class="block-1-1 block-mob-full stack">
+
+	        		<div class="bgrid folio-item">
+						<div class="item-wrap">
+		               	
+		               		<h5>Data Science Project</h5> <br>
+
+			               	<img src="images/portfolio/twitter_2.png" alt="Twitter II">
+			               	<a href="#modal-03" class="overlay">              		                  
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Big Data Analytics on Twitter - Part II</h3>	     					    
+								    	<span class="folio-types">
+							       	 		Big Data Analytics
+								      	</span>		     		
+								   	</div> 	                      	
+								</div>                    
+		                  	</a>
+		            	</div>
+	        		</div> <!-- /folio-item -->
+
+		            <!-- modal popups - begin ============================================================= -->
+		            
+		            <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+						<div class="media">
+							<img src="images/portfolio/modals/m-twitter_2.png" alt="" />
+						</div>      	
+
+						<div class="description-box">
+					  		<h4>Big Data Analytics on Twitter - Part II</h4>		      
+						  	<p>
+								O objetivo desta análise é explorar diferentes técnicas e ferramentas para a captura, manipulação e transformação de dados provenientes do Twitter. Buscaremos introduzir o processo de comparação dos sentimentos dos usuários desta rede social em relação a dois temas (duas palavras-chave). Esta técnica visa auxilar os tomadores de decisão na compreensão dos sentimentos do seu público alvo em relação a múltiplos temas. Como por exemplo, determinar se uma campanha de marketing apresentou uma aceitação mais positiva ou negativa do que outra. 
+						  	</p>
+
+							<div class="categories">Big Data Analytics</div>			               
+						</div>
+
+						<div class="link-box">
+							<a href="https://franklin390.github.io/Mini_Project_02_Sentiment_Analisys_II/">Ver Projeto</a>
+							<a href="#" class="popup-modal-dismiss">Fechar</a>
+						</div>		      
+
+					</div> <!-- /modal -->
+
+					<!-- modal popups - end ============================================================ -->
+
+		        </div> <!-- /portfolio-wrapper --> 
+				<!-- \Project 3 -->
+
+	   			<!-- Project 2 -->
+		        <div id="folio-wrapper" class="block-1-1 block-mob-full stack">
+
+	        		<div class="bgrid folio-item">
+						<div class="item-wrap">
+		               	
+		               		<h5>Data Science Project</h5> <br>
+
+			               	<img src="images/portfolio/twitter_3.png" alt="Twitter III">
+			               	<a href="#modal-02" class="overlay">              		                  
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Big Data Analytics on Twitter - Part III</h3>	     					    
+								    	<span class="folio-types">
+							       	 		Big Data Analytics
+								      	</span>		     		
+								   	</div> 	                      	
+								</div>                    
+		                  	</a>
+		            	</div>
+	        		</div> <!-- /folio-item -->
+
+		            <!-- modal popups - begin ============================================================= -->
+		            
+		            <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+						<div class="media">
+							<img src="images/portfolio/modals/m-twitter_3.png" alt="" />
+						</div>      	
+
+						<div class="description-box">
+					  		<h4>Big Data Analytics on Twitter - Part III</h4>		      
+						  	<p>
+								O objetivo desta análise é explorar diferentes técnicas e ferramentas para a captura, manipulação e transformação de dados provenientes do Twitter. Buscaremos classificar os sentimentos que cada Tweet transmite e determinar sua polaridade. Esta técnica visa auxilar os tomadores de decisão na compreensão dos sentimentos do seu público alvo em relação a um determinado tema. Como por exemplo, determinar se uma campanha de marketing gerou surpresa, raiva, medo, nojo, alegria, etc.
+						  	</p>
+
+							<div class="categories">Big Data Analytics</div>			               
+						</div>
+
+						<div class="link-box">
+							<a href="https://franklin390.github.io/Mini_Project_03_Sentiment_Analisys_III/">Ver Projeto</a>
+							<a href="#" class="popup-modal-dismiss">Fechar</a>
+						</div>		      
+
+					</div> <!-- /modal -->
+
+					<!-- modal popups - end ============================================================ -->
+
+		        </div> <!-- /portfolio-wrapper --> 
+				<!-- \Project 2 -->
+
+	   			<!-- Project 1 -->
+		        <div id="folio-wrapper" class="block-1-1 block-mob-full stack">
+
+	        		<div class="bgrid folio-item">
+						<div class="item-wrap">
+		               	
+		               		<h5>Data Science Project</h5> <br>
+
+			               	<img src="images/portfolio/twitter_4.png" alt="Twitter IV">
+			               	<a href="#modal-01" class="overlay">              		                  
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Big Data Analytics on Twitter - Part IV</h3>	     					    
+								    	<span class="folio-types">
+							       	 		Big Data Analytics
+								      	</span>		     		
+								   	</div> 	                      	
+								</div>                    
+		                  	</a>
+		            	</div>
+	        		</div> <!-- /folio-item -->
+
+		            <!-- modal popups - begin ============================================================= -->
+		            
+		            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+						<div class="media">
+							<img src="images/portfolio/modals/m-twitter_4.png" alt="" />
+						</div>      	
+
+						<div class="description-box">
+					  		<h4>Big Data Analytics on Twitter - Part IV</h4>		      
+						  	<p>
+								O objetivo desta análise é explorar diferentes técnicas e ferramentas para a captura, manipulação e transformação de dados provenientes do Twitter. Buscaremos avaliar a frequência com que uma determinada palavra-chave é usada em uma região geográfica. Esta técnica visa auxilar os tomadores de decisão na compreensão dos sentimentos do seu público alvo em relação a um determinado tema. Como por exemplo, determinar em quais cidades uma campanha de marketing foi mais comentada.
+						  	</p>
+
+							<div class="categories">Big Data Analytics</div>			               
+						</div>
+
+						<div class="link-box">
+							<a href="https://franklin390.github.io/Mini_Project_04_Sentiment_Analisys_IV/">Ver Projeto</a>
+							<a href="#" class="popup-modal-dismiss">Fechar</a>
+						</div>		      
+
+					</div> <!-- /modal -->
+
+					<!-- modal popups - end ============================================================ -->
+
+		        </div> <!-- /portfolio-wrapper --> 
+				<!-- \Project 1 -->
+
+	   		</div> 	<!-- \owl-slider-port -->
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+
+	<!-- Phrase Section ================================================== -->
+
+	<section id="cta" class="grey-section">
+
+   	<div class="row cta-content">
+
+   		<div class="col-twelve section-ads">  
+
+     		<h2 class="h01">Michael Palmer</h2>
+
+      		<aside class="pull-quote">
+		   		<blockquote>
+			   		<p>
+						Os dados são como o petróleo. Não são úteis por si só, mas, quando refinados, tornam-se incrivelmente valiosos.	
+	        		</p>
+				</blockquote>
+
+			</aside> <!-- /pull-quote -->  
+
+   		</div> <!-- /section-ads -->
+
+   	</div> <!-- /cta-content -->
+
+   </section> <!-- /cta --> 
+
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+	   		<div class="col-twelve">
+
+	   			<h5>Serviços</h5>
+	   			<h1>O que eu posso fazer por você?</h1>
+
+	   			<p class="lead">
+					Estes são alguns trabalhos em que posso utilizar minhas habilidades para gerar soluções eficientes e eficazes em problemas que você possa enfrentar.
+	   			</p>
+
+	   		</div>   		
+		</div> <!-- /section-intro -->
+
+	   	<div class="row services-content">
+
+	   		<div id="owl-slider" class="owl-carousel services-list">
+
+		      	<div class="service">	
+
+		      		<span class="icon"><i class="icon-bar-chart"></i></span>            
+
+		            <div class="service-content">	
+
+		            	<h3>Descriptive Analysis</h3>
+
+			            <p class="desc">
+			            	Aplicar diferentes técnicas estatísticas para descrever, organizar e sumarizar seu conjunto de dados para que possa entender o que aconteceu.
+		         		</p>
+		         		
+		         	</div> 	         	 
+
+					</div> <!-- /service -->
+
+					<div class="service">	
+
+						<span class="icon"><i class="icon-search"></i></span>                          
+
+		            <div class="service-content">	
+
+		            	<h3>Diagnostic Analysis</h3>  
+
+			            <p class="desc">
+			            	Utilizar uma forma de análise avançada baseada em buscas detalhadas, descoberta de dados, data mining e correlações para examinar seus dados e responder à pergunta: "Por que isso aconteceu?".
+		         		</p>
+
+		            </div>	                          
+
+				   </div> <!-- /service -->
+
+					<div class="service">
+
+						<span class="icon"><i class="icon-edit"></i></span>	              
+
+		            <div class="service-content">
+
+		            	<h3>Prescriptive Analysis</h3>
+
+			            <p class="desc">
+			            	Definir a melhor estratégia de ações que você pode tomar com base nos dados disponíveis.
+		         		</p> 
+		         		
+		            </div>                
+
+					</div> <!-- /service -->
+
+				   <div class="service">
+
+				   	<span class="icon"><i class="icon-dollar"></i></span>	            
+
+		            <div class="service-content">
+
+		            	<h3>Investment Analysis</h3>
+
+			            <p class="desc">
+							Como analista de investimentos, realizo análises financeiras e setoriais detalhadas, utilizo ferramentas técnicas e quantitativas, avalio a gestão e práticas corporativas, e gerencio riscos para tomar decisões de investimento informadas.
+	        			</p> 
+
+		            </div>	               
+
+				   </div> <!-- /service -->
+
+				   <div class="service">
+
+				   	<span class="icon"><i class="icon-signal"></i></span>	            
+
+		            <div class="service-content">
+
+		            	<h3>Data Visualization & Dashboard Design</h3>
+
+			            <p class="desc">
+			            	Criar gráficos responsivos e interativos com excelentes designs para sumarizar seus dados e proporcionar a visualização da Big Picture.
+	        			</p> 
+
+		            </div>	               
+
+				   </div> <!-- /service -->
+
+				   <div class="service">
+
+				   	<span class="icon"><i class="icon-chat"></i></span>	   	           
+
+		            <div class="service-content">
+
+		            	 <h3>Consultancy</h3>
+
+			            <p class="desc">
+			            	Fornecer apoio especializado para a definição e resolução de problemas minimizando as chances de falha no desenvolvimento de sua solução.
+		        		</p> 
+		        			
+		            </div>	               
+
+				   </div> <!-- /service -->
+
+		      </div> <!-- /services-list -->
+	   		
+	   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contato</h5>
+   			<h1>FALE COMIGO!</h1>
+
+   			<p class="lead">
+   				Será uma honra poder te ajudar!
+   			</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+		<a href="mailto:hadiltonsilva@gmail.com"><button class="submitform">Enviar E-mail</button></i></a>
+   		
+   	</div> <!-- /contact-form -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+			   	<ul class="footer-social">        
+					<li><a href="https://github.com/HadiltonSilva"><i class="bi bi-github"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/hadiltonsilva/"><i class="bi bi-linkedin"></i></a></li>
+		      	</ul> <!-- /intro-social -->    
+
+      		</div>
+
+	  	<div class="col-eight tab-full">
+
+	      	<div class="copyright">
+
+	        	<span>
+	        		© Copyright 2024 - 
+
+	        		<script>
+	        			new Date().getFullYear()>document.write(new Date().getFullYear());
+	        		</script>
+	        	</span> 
+	        	
+	        	<span>Design by <a href="#">Hadilton Selis</a></span>  
+	        	    	
+	         </div>		                  
+	  	</div>
+
+	  	<div id="go-top">
+	 		<a class="smoothscroll" title="Back to Top" href="#top"><i class="bi bi-arrow-up"></i></a>
+	  	</div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-3.5.1.min.js"></script>
+   <script src="js/jquery-migrate-1.4.1.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
 </html>
